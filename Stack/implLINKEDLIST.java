@@ -5,7 +5,7 @@ public class implLINKEDLIST {
     {
         public int size;
         public Node top;
-        Stackll()
+        StackLL()
         {
             size = 0;
             top = null;
@@ -25,6 +25,7 @@ public class implLINKEDLIST {
         {
             Node temp = new Node(value);
             temp.next = top;
+            top = temp;
             size++;
         }
         public int pop()
@@ -37,11 +38,34 @@ public class implLINKEDLIST {
 
             Node temp = top;
             top = top.next;
-
+            size--;
+            return temp.data;
+        }
+        public int getSize()
+        {
+            return size;
+        }
+        public int top()
+        {
+            if(top == null)
+            {
+                System.out.println("empty stack");
+                return -1;
+            }
+            return top.data;
         }
     }
 
     public static void main(String[] args) {
+        StackLL st = new StackLL();
+        st.push(3);
+        st.push(2);
+        st.push(1);
+        st.push(5);
 
+        System.out.println(st.top());
+        System.out.println(st.pop());
+        System.out.println(st.top());
+        System.out.println(st.getSize());
     }
 }
