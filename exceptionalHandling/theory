@@ -1,0 +1,20 @@
+so the we use exception handling for finding what is the error
+we use code editor for code that why it give us that what is wrong with the code
+but when we code in window text editor , and if the code has error, there nothing will print
+
+
+so to show what is wrong wit the code
+we use exceptional handling
+
+definition ->
+
+1st definition ->
+exceptional handling is the way to handle the runtime errors so that the normal flow of application can be maintained
+
+2nd definition ->
+exception is an event that disrupts the normal flow of the program.It is an object which is thrown at runtime.
+
+## type of error
+1. syntax error
+2. logical error
+3. runtime error
