@@ -1,4 +1,4 @@
-package majorityELements;
+package Arrays.majorityELements;
 
 public class BruteForce {
     public static int majorityElement(int[] nums) {

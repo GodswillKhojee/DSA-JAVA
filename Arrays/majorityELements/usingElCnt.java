@@ -1,4 +1,4 @@
-package majorityELements;
+package Arrays.majorityELements;
 
 public class usingElCnt {
     public static int majority(int [] nums)

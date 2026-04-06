@@ -1,4 +1,4 @@
-package longestSubarraySumK;
+package Arrays.longestSubarraySumK;
 
 public class OptimalSol {
     public static int LongestSubarray(int[] nums, int k)

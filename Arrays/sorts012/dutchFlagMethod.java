@@ -1,4 +1,4 @@
-package sorts012;
+package Arrays.sorts012;
 
 public class dutchFlagMethod {
     public static void sortZeroOneTwo(int [] nums)

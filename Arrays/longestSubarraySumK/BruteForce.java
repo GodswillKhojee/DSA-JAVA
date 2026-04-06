@@ -1,6 +1,5 @@
-package longestSubarraySumK;
+package Arrays.longestSubarraySumK;
 
-import java.util.*;
 public class BruteForce {
     public static int LongestSubarray(int [] nums, int k)
     {

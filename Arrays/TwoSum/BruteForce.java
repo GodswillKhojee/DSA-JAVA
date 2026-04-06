@@ -1,4 +1,4 @@
-package TwoSum;
+package Arrays.TwoSum;
 
 public class BruteForce {
     public static int[] twoSum(int[] nums, int target) {
