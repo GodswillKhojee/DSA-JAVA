@@ -12,6 +12,7 @@ public class usingHashmap {
 
             if (map.get(num) > nums.length / 2) return num;
         }
+        return 1;
     }
     public static void main(String[] args) {
         int [] nums = {7, 0, 0, 1, 7, 7, 2, 7, 7};
