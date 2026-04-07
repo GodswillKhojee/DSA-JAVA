@@ -1,4 +1,4 @@
-package Stack;
+package Stack.celebrity;
 
 public class celebrityProblemNestedForLoop {
     public static int celebrity(int mat[][]) {
