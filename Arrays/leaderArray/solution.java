@@ -3,7 +3,8 @@ package Arrays.leaderArray;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class bruteForce {
+public class solution
+{
     public static ArrayList<Integer> leaders(int [] arr)
     {
         ArrayList<Integer> lead = new ArrayList<>();
