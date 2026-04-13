@@ -1,0 +1,12 @@
+1. Checking if the i-th Bit is Set
+(1 << i) & num   → set if result ≠ 0
+(num >> i) & 1   → set if result ≠ 0
+
+2. Setting the i-th Bit
+num | (1 << i)
+
+3. Clearing the i-th Bit
+num & ~(1 << i)
+
+4. Toggling the i-th Bit
+num ^ (1 << i)
