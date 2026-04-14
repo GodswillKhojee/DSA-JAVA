@@ -14,5 +14,17 @@ public class XORrange {
     }
     public static void main(String[] args) {
         System.out.println(xorN(4,9));
+        int [] nums = {1, 3, 5, 7, 9, 11};
+        System.out.println(SimpleXorRange(nums,2,5));
     }
+    public static int SimpleXorRange(int [] nums, int a, int b)
+    {
+        int xor = 0;
+        for(int i = a;i<=b;i++)
+        {
+            xor ^= nums[i];
+        }
+        return xor;
+    }
+
 }
