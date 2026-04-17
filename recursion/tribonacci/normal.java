@@ -9,7 +9,9 @@ public class normal {
         for(int i = 0; i < n;i++)
         {
             int cur = a+b+c;
-            a=b;b=c;c=cur;
+            a=b;
+            b=c;
+            c=cur;
         }
         return c;
     }
