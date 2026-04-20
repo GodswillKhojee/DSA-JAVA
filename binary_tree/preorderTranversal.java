@@ -6,12 +6,12 @@ public class preorderTranversal {
         root.left = new node(2);
         root.right = new node(3);
         root.right.left = new node(5);
-        System.out.println(root.data);
+        preorder(root);
     }
     public static void preorder(node root)
     {
         if(root == null) return;
-        System.out.println(root.data);
+        System.out.print(root.data + "->");
         preorder(root.left);
         preorder(root.right);
     }
