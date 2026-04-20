@@ -6,7 +6,7 @@ public class preorderTranversal {
         root.left = new node(2);
         root.right = new node(3);
         root.right.left = new node(5);
-        preorder(root);
+        preorder(root); // this is the preorder recursive method
     }
     public static void preorder(node root)
     {
