@@ -14,8 +14,7 @@ public class sameTree {
         System.out.println(isSameTree(root, root1));
     }
     public static boolean isSameTree(node p, node q) {
-        if(q == null && p == null) return true;
-        if(q == null || p == null) return false;
+        if(q == null || p == null) return p==q;
 
         return (q.data == p.data ) && isSameTree(q.left ,p.left) && isSameTree(q.right , p.right);
     }
