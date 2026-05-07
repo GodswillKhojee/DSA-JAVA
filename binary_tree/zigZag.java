@@ -26,7 +26,7 @@ public class zigZag {
             for (int i = 0 ; i < size;i++)
             {
                 node n = q.poll();
-                int idx = LR ? i:size-1-i;
+                int idx = LR ? i:size-1-i; // here if LR true insert as it is or if LR false insert it in reverse
                 ls.set(idx,n.data);
                 if(n.left != null) q.offer(n.left);
                 if(n.right != null) q.offer(n.right);
