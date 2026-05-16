@@ -1,15 +1,5 @@
 package binary_tree;
 
-class node
-{
-    int data;
-    node left;
-    node right;
-    node(int key)
-    {
-        data = key;
-    }
-}
 public class binaryRepresentation {
     public static void main(String[] args) {
         node root = new node(1);
