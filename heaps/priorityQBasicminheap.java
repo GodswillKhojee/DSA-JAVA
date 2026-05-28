@@ -5,6 +5,8 @@ import java.util.PriorityQueue;
 public class priorityQBasicminheap {
     public static void main(String[] args) {
         // this is a min heap which store the value form small to large
+        // but this is not always true
+
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(10);
         pq.add(20);
