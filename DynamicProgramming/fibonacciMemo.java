@@ -1,6 +1,7 @@
 package DynamicProgramming;
 
-public class fibonacci {
+public class fibonacciMemo
+{
     public int fibo(int n, int [] lookUp)
     {
         if(n <= 1) return n;
