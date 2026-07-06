@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.fibonacci;
 
 public class fiboTabulation {
     public static int fibo(int n)
