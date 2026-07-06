@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.minCost;
 
 public class minCostStairRecusive {
     public int minCost(int [] cost, int idx)
