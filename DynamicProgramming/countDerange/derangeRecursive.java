@@ -1,0 +1,9 @@
+package DynamicProgramming.countDerange;
+
+public class derangeRecursive {
+    public int derangeCount(int n) {
+        // code here
+        if(n<=3) return n-1;
+        return (n-1) * (derangeCount(n-1)+derangeCount(n-2));
+    }
+}
