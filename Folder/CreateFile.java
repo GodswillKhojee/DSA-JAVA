@@ -10,7 +10,7 @@ public class CreateFile {
                 String str2 = "2nd way of doing this";
 
 //            fos.write(str.getBytes());
- 
+
                 byte[] b = str.getBytes();
 //            for(byte ele:b) fos.write(ele);
                 fos.write(b, 6, str.length() - 6);
