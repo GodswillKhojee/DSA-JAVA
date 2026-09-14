@@ -1,0 +1,20 @@
+// Last updated: 15/09/2026, 01:18:24
+class Solution {
+    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+        int r1x1 = rec1[0],
+                r1y1 = rec1[1],
+                r1x2 = rec1[2],
+                r1y2 = rec1[3];
+
+        int r2x1 = rec2[0],
+                r2y1 = rec2[1],
+                r2x2 = rec2[2],
+                r2y2 = rec2[3];
+
+        if(r2x1 >= r1x2) return false;
+        if(r2y1 >= r1y2) return false;
+        if(r1x1 >= r2x2) return false;
+        if(r2y2<= r1y1) return false;
+        return true;
+    }
+}
